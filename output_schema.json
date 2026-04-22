@@ -1,0 +1,26 @@
+{
+  "type": "object",
+  "properties": {
+    "summary": { "type": "string" },
+    "repo_score": {
+      "type": "number",
+      "description": "Overall GitHub readiness score (0-100)"
+    },
+    "issues_found": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "suggestions": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "files_modified": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "generated_files": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  }
+}
