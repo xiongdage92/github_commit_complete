@@ -1,0 +1,29 @@
+{
+  "type": "object",
+  "properties": {
+    "project_path": {
+      "type": "string",
+      "description": "Absolute path of the target project"
+    },
+    "mode": {
+      "type": "string",
+      "enum": ["dry_run", "apply_changes"],
+      "default": "dry_run"
+    },
+    "language": {
+      "type": "string",
+      "enum": ["en", "zh", "bilingual"],
+      "default": "bilingual"
+    },
+    "include_dirs": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "exclude_dirs": {
+      "type": "array",
+      "items": { "type": "string" },
+      "default": [".git", "node_modules", "dist", "build"]
+    }
+  },
+  "required": ["project_path"]
+}
