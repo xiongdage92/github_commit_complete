@@ -1,0 +1,14 @@
+{
+  "summary": "Project is moderately ready for GitHub",
+  "repo_score": 72,
+  "issues_found": [
+    "Missing README",
+    "Hardcoded API key"
+  ],
+  "suggestions": [
+    "Add README with usage instructions",
+    "Remove secrets from code"
+  ],
+  "files_modified": [],
+  "generated_files": ["README.md", "checklist.md"]
+}
