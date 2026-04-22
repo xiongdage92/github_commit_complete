@@ -1,0 +1,12 @@
+name: github-commit-complete
+
+description: |
+  Prepare a project for high-quality GitHub commit with code inspection, bilingual comments, and documentation generation.
+  用于检查项目代码，补充中英双语注释，并生成符合 GitHub 规范的文档（README、checklist）。
+
+version: 1.1.0
+
+input_schema: ./input_schema.json
+output_schema: ./output_schema.json
+
+entry_prompt: ./prompt.md
